@@ -506,6 +506,7 @@ function Tweener.new(subject, goal, tweeningInfo)
     end
 
     function self:Restart()
+        self.paused = false
         self.run = 0
     end
 
